@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mercado da Esquina</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" required>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+            <a href="index.html" id="adminLogin"></a> <button type="submit">Entrar</button>
+        </form>
+        <div class="options">
+            <a href="admin.html" id="adminLogin">Login de Funcionario</a>
+            <a href="senha.html" id="forgotPassword">Esqueci a senha</a>
+            <a href="nova_conta.html" id="newAccount">Novo cadastro</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
